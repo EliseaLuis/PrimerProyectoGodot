@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpdt3a0yauw54"]
+
+[ext_resource type="Texture2D" uid="uid://crjpw6hp5whb1" path="res://personaje.jpg" id="1_e55u6"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_bhymo"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(560, 293)
+scale = Vector2(0.285916, 0.285916)
+texture = ExtResource("1_e55u6")
+script = ExtResource("2_bhymo")
+metadata/_edit_group_ = true
